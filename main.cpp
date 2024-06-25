@@ -102,6 +102,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			}
 		}
 
+		float a;
+
 		// 左矢印キーでバレットタイムを有効
 		if (!isBulletTime) {
 			if (bulletTimeTimer == 300) {
